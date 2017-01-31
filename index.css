@@ -1,0 +1,24 @@
+* {
+  transition: all 0.3s;
+}
+
+body {
+  font-family: 'Hiragino Sans';
+  font-weight: 100;
+  margin: 0;
+}
+
+main {
+  margin:10px;
+}
+
+h1 {
+  font-weigth: 100;
+  margin: 0;
+}
+
+#drag-space {
+  -webkit-app-region: drag;
+  height: 20px;
+  width: 100%;
+}
